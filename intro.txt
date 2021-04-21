@@ -1,0 +1,13 @@
+Steganography is the practice of concealing a message within another message or a physical object. For eg. Hiding a secret message inside
+a piece of art. or another example, using a special invisible ink to write content over an image.
+In computing/electronic contexts, a computer file, message, image, or video is concealed within another file, message, image, or video.
+
+Now, how can we implement steganography? The answer lies with pixel manupulation, where pixels are accordingly changed wrt encoded message.
+In this project, we have taken a simple algorithm called as Least-Significant bit data hiding. 
+
+It uses a 24-bit image where each pixel is made up of 3 8bit values R,G,B values that is to say. By changing the LSB of RGB values to desired 
+binary values, the colour of pixel is changing..but very slightly so that human eyes cant even notice the difference.
+However, this is too easy to crack by hackers.. So, we also deploying AES encryption and random pixel hiding for better hiding.
+ 
+
+More details on encryption and decryption algorithm will be explained by:
